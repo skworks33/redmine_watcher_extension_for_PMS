@@ -16,7 +16,7 @@ Then, restart your redmine web server.
 ## update
 
 ```
-$ cd $RAILS_ROOT/plugins/redmine_watcher_extension
+$ cd $RAILS_ROOT/plugins/redmine_watcher_extension_for_PMS
 $ git pull
 Then, restart your redmine web server.
 ```
