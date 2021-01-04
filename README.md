@@ -1,14 +1,14 @@
 # redmine_watcher_extension
 ## About
 
-* プロジェクトに属するユーザだけでなく、ユーザーが属するグループの全ユーザーをウォッチャーに追加します
+* ユーザーが属するグループの全ユーザーのみをウォッチャーに追加します。**プロジェクトに属するユーザは対象になりません。**
 * StatusがDisableのユーザはウォッチャー対象になりません
 
 ## install
 
 ```
 $ cd $RAILS_ROOT/plugins
-$ git clone https://github.com/skworks33/redmine_watcher_extension.git
+$ git clone https://github.com/skworks33/redmine_watcher_extension_for_PMS.git
 Then, restart your redmine web server.
 ```
 
