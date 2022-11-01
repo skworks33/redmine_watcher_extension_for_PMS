@@ -1,6 +1,6 @@
 require 'redmine'
 
-require_dependency 'issues_helper_patch_for_watchers'
+require File.expand_path('../lib/issues_helper_patch_for_watchers', __FILE__)
 
 Redmine::Plugin.register :redmine_watcher_extension_for_PMS do
   name 'Redmine Watcher Extension for PMS'

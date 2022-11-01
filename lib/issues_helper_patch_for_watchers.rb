@@ -1,6 +1,6 @@
 require_dependency 'issues_helper'
 
-module IssuesHelperPatch
+module IssuesHelperPatchForWatchers
 
   # Returns an array of users that are proposed as watchers
   # on the new issue form
@@ -18,4 +18,4 @@ module IssuesHelperPatch
 
 end
 
-IssuesHelper.prepend IssuesHelperPatch
+IssuesHelper.prepend IssuesHelperPatchForWatchers
